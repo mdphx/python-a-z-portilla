@@ -17,6 +17,9 @@ def lesser_of_two_evens1(num1, num2):
     
     return result
 
+lesser1=lesser_of_two_evens1(4, 16)
+print(lesser1)
+
 # Another way to write this is with the min() and max() functions.
 # The min() function takes two numbers as paramemters and returns the lower of the two
 # For example: min(10, 20) will return 10.
@@ -34,6 +37,8 @@ def lesser_of_two_evens2(num1, num2):
             result = max(num1, num2)
     
     return result
+lesser2=lesser_of_two_evens2(10, 20)
+print(lesser2)
 
 # We can also eliminate the result statements by using return statements as follows:
 
@@ -42,4 +47,7 @@ def lesser_of_two_evens3(num1, num2):
            return min(num1, num2)
     else:
            return max(num1, num2)
+
+lesser3=lesser_of_two_evens2(600, 20)
+print(lesser3)
     
